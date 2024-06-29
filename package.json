@@ -1,0 +1,16 @@
+{
+  "name": "landing-page",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^3.4.4"
+  },
+  "scripts": {
+    "build": "tailwindcss build -i ./assets/css/src.css -o ./assets/css/style.css",
+    "watch": "tailwindcss build -i ./assets/css/src.css -o ./assets/css/style.css --watch"
+  },
+  "dependencies": {
+    "@tailwindcss/typography": "^0.5.13"
+  }
+}
